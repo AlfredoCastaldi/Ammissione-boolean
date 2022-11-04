@@ -1,0 +1,79 @@
+
+
+body{
+height: 100vh;
+width: 100vw;
+background-image: url(background.jpg);
+background-size: cover;
+background-position: 40%;
+
+}
+
+/* Sfondo trasparente e contenitore elementi ridimensionato */
+
+.sfondo{
+  height: 95vh;
+  width: 85vw;
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5pc;
+
+}
+
+.contenuto{
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  margin-top: 5%;
+
+}
+
+/* Proprietà per centrare elementi, colorarli o riposizionarli */
+
+
+.centrato{
+margin: auto;
+text-align: center;
+}
+
+.verde{
+  color: #1aff1a;
+}
+.aggiustato{
+padding-top: 1%;
+padding-bottom: 1%;
+background-color: #1aff1a;
+border-radius: 4px;
+}
+
+/* Dimensione logo pagina */
+
+.logo{
+ width: 25%;
+ height: 25%;
+ margin-top:5%;
+
+}
+
+/* Proprietà per elementi "monopattino" */
+.monopattino{
+color: white;
+width: 60%;
+height: auto;
+font-family: monospace;
+}
+
+.intestazione{
+  display: inline-block;
+}
+
+.w3-bar.w3-green{
+width:80%;
+}
+.w3-bar.w3-orange{
+  width: 60%;
+}
+.w3-bar.w3-red{
+  width:40%;
+}
